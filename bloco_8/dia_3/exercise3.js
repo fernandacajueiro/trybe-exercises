@@ -1,5 +1,4 @@
 // Calcule a média de idade que as pessoas autoras tinham quando seus respectivos livros foram lançados.
-
 const assert = require('assert');
 
 const books = [
@@ -68,10 +67,11 @@ const books = [
 const expectedResult = 43;
 
 function averageAge() {
-  const sumOfAges = books.reduce((sum, curr) => (
-    sum + (curr.releaseYear - curr.author.birthYear)
-  ), 0)
-  return sumOfAges / books.length;
+  // escreva seu código aqui
+  return books.reduce((acc, curr) => (
+    acc + (curr.releaseYear - curr.author.birthYear)
+  ), 0) / books.length;
 }
+console.log(averageAge());
 
 assert.strictEqual(averageAge(), expectedResult);

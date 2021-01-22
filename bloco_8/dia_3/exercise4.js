@@ -1,4 +1,4 @@
-// Crie uma string com os nomes de todas as pessoas autoras.
+// Encontre o livro com o maior nome.
 const assert = require('assert');
 
 const books = [
@@ -35,7 +35,6 @@ const books = [
   {
     id: 4,
     name: 'Duna',
-    genre: 'Ficção Científica',
     author: {
       name: 'Frank Herbert',
       birthYear: 1920,
@@ -64,20 +63,21 @@ const books = [
   },
 ];
 
-function allNames() {
+const expectedResult = {
+  author: {
+    birthYear: 1948,
+    name: 'George R. R. Martin'
+  },
+  genre: 'Fantasia',
+  id: 1,
+  name: 'As Crônicas de Gelo e Fogo',
+  releaseYear: 1991
+};
+
+function longestNamedBook() {
   // escreva seu código aqui
-
-  /* return books.reduce((accumulator, currrentValue, index, array) => {
-    if (index === array.length - 1) {
-      return `${accumulator} ${currrentValue.author.name}.`
-    }
-      return `${accumulator} ${currrentValue.author.name},`;
-  }, 'Nomes:') */
-
-  /* return books.reduce((accumulator, currrentValue, index, array) => index === array.length - 1 ? `${accumulator} ${currrentValue.author.name}.` : `${accumulator} ${currrentValue.author.name},`, 'Nomes:'); */
-
-  return books.reduce((accumulator, currrentValue, index, array) => `${accumulator} ${currrentValue.author.name},`, 'Nomes:').replace(/,$/,'.');
+  return books.reduce((acc, curr) => (acc.name.length > curr.name.length) ? acc : curr);
 }
-console.log(allNames());
+console.log(longestNamedBook());
 
-assert.deepStrictEqual(allNames(), "Nomes: George R. R. Martin, J. R. R. Tolkien, Isaac Asimov, Frank Herbert, Stephen King, H. P. Lovecraft.");
+assert.deepStrictEqual(longestNamedBook(), expectedResult);
