@@ -26,62 +26,62 @@ The program has more than 1.500 hours of in-person and online classes and deals 
 - [x] 3-2: _HTML & CSS - Getting started with CSS_
 - [x] 3-3: _HTML & CSS - Selectors and positioning_
 - [x] 3-4: _Semantic HTML_
-- [ ] 3-5: _[Project - HTML & CSS]()_
+- [x] 3-5: _[Project - HTML & CSS]()_
 
 ##### Block 4: Introduction - JavaScript
 
-- [ ] 4-1: _JavaScript - First steps_
-- [ ] 4-2: _JavaScript - Array and For Loop_
-- [ ] 4-3: _JavaScript - Programming Logic and Algorithms_
-- [ ] 4-4: _JavaScript - Objects and functions_
-- [ ] 4-5: _[Project - Playground Functions]()_
+- [x] 4-1: _JavaScript - First steps_
+- [x] 4-2: _JavaScript - Array and For Loop_
+- [x] 4-3: _JavaScript - Programming Logic and Algorithms_
+- [x] 4-4: _JavaScript - Objects and functions_
+- [x] 4-5: _[Project - Playground Functions]()_
 
 ##### Block 5: Introduction - JavaScript - Projects
 
-- [ ] 5-1: _JavaScript - DOM e selectors_
-- [ ] 5-2: _JavaScript - Working with elements_
-- [ ] 5-3: _JavaScript - Events_
-- [ ] 5-4: _JavaScript - Web Storage_
+- [x] 5-1: _JavaScript - DOM e selectors_
+- [x] 5-2: _JavaScript - Working with elements_
+- [x] 5-3: _JavaScript - Events_
+- [x] 5-4: _JavaScript - Web Storage_
 - [ ] 5-5: _[Project - Meme generator]()_
-- [ ] 5-6: _[Project - Art with Pixels]()_
-- [ ] 5-7: _[Project - To do list]()_
-- [ ] 5-7: _[Project - Guess the color]()_
+- [x] 5-6: _[Project - Art with Pixels]()_
+- [x] 5-7: _[Project - To do list]()_
+- [x] 5-7: _[Project - Guess the color]()_
 - [ ] 5-7: _[Project - Mysterious card]()_
 
 ##### Block 6: Advanced HTML & CSS
 
-- [ ] 6-1: _HTML & CSS - Forms_
-- [ ] 6-2: _JavaScript libraries and CSS frameworks_
-- [ ] 6-3: _CSS Flexbox - Part 1_
-- [ ] 6-4: _CSS Flexbox - Part 2_
-- [ ] 6-5: _Responsive CSS - Mobile First_
-- [ ] 6-6: _[Project - Facebook homepage]()_
+- [x] 6-1: _HTML & CSS - Forms_
+- [x] 6-2: _JavaScript libraries and CSS frameworks_
+- [x] 6-3: _CSS Flexbox - Part 1_
+- [x] 6-4: _CSS Flexbox - Part 2_
+- [x] 6-5: _Responsive CSS - Mobile First_
+- [x] 6-6: _[Project - Facebook homepage]()_
 
 ##### Block 7: JavaScript ES6 & Unit Tests
 
-- [ ] 7-1: _JavaScript ES6 - let, const, arrow functions and template literals_
-- [ ] 7-2: _JavaScript ES6 - Objects_
-- [ ] 7-3: _JavaScript unit tests_
-- [ ] 7-4: _[Project - JavaScript Unit Tests]()_
+- [x] 7-1: _JavaScript ES6 - let, const, arrow functions and template literals_
+- [x] 7-2: _JavaScript ES6 - Objects_
+- [x] 7-3: _JavaScript unit tests_
+- [x] 7-4: _[Project - JavaScript Unit Tests]()_
 
 ##### Block 8: JavaScript ES6
 
-- [ ] 8-1: _JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort_
-- [ ] 8-2: _JavaScript ES6 - Higher Order Functions - map and filter_
-- [ ] 8-3: _JavaScript ES6 - Higher Order Functions - reduce_
-- [ ] 8-4: _JavaScript ES6 - spread operator, rest parameter, destructuring and more
-- [ ] 8-5: _[Project - Zoo functions]()_
+- [x] 8-1: _JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort_
+- [x] 8-2: _JavaScript ES6 - Higher Order Functions - map and filter_
+- [x] 8-3: _JavaScript ES6 - Higher Order Functions - reduce_
+- [x] 8-4: _JavaScript ES6 - spread operator, rest parameter, destructuring and more
+- [x] 8-5: _[Project - Zoo functions]()_
 
 ##### Block 9: Asynchronicity & Callbacks
 
-- [ ] 9-1: _Asynchronous JavaScript and Callbacks_
-- [ ] 9-2: _JavaScript Promises_
-- [ ] 9-3: _[Project - Shopping Cart]()_
+- [x] 9-1: _Asynchronous JavaScript and Callbacks_
+- [x] 9-2: _JavaScript Promises_
+- [x] 9-3: _[Project - Shopping Cart]()_
 
 ##### Block 10: Jest
 
-- [ ] 10-1: _Getting started with Jest_
-- [ ] 10-2: _Jest - Asynchronous tests_
+- [x] 10-1: _Getting started with Jest_
+- [x] 10-2: _Jest - Asynchronous tests_
 - [ ] 10-3: _Jest - Simulating behaviors_
 - [ ] 10-4: _[Project - Asynchronous Jest and Mocking]()_
 
